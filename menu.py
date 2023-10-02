@@ -20,7 +20,7 @@ def printMenu():
     print(colored("╰────────────────────────────────────────────────────────────╯", main_color))
 
 def clear():
-    system("clear")
+    system("cls")
 
 # Paragraph Typing
 def typingMain(strings, errorMessage, string_i, string_time, speedString, length):
